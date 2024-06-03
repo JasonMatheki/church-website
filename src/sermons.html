@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sermons</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-3xl text-center">Sermons</h1>
+    </header>
+    <main class="py-8 px-4 bg-gray-100">
+        <div class="container mx-auto">
+            <article class="mb-8">
+                <h2 class="text-2xl font-bold mb-4">Recent Sermon</h2>
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/3 md:mr-4 mb-4 md:mb-0">
+                        <img src="path_to_sermon_image.jpg" alt="Sermon Image" class="rounded-lg">
+                    </div>
+                    <div class="md:w-2/3">
+                        <h3 class="text-xl font-semibold">Title of the Sermon</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <a href="sermon_link" class="text-blue-600 hover:underline">Listen to the sermon</a>
+                    </div>
+                </div>
+            </article>
+            <section>
+                <h2 class="text-2xl font-bold mb-4">Past Sermons</h2>
+                <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <li>
+                        <h3 class="text-lg font-semibold">Sermon Title 1</h3>
+                        <p class="text-gray-700">Date: January 1, 2024</p>
+                        <a href="sermon_link" class="text-blue-600 hover:underline">Listen</a>
+                    </li>
+                    <li>
+                        <h3 class="text-lg font-semibold">Sermon Title 2</h3>
+                        <p class="text-gray-700">Date: January 8, 2024</p>
+                        <a href="sermon_link" class="text-blue-600 hover:underline">Listen</a>
+                    </li>
+                    <!-- Add more past sermons as needed -->
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="bg-blue-600 text-white p-4">
+        <p class="text-center">&copy; 2024 Our Church</p>
+    </footer>
+</body>
+</html>
